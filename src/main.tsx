@@ -6,7 +6,7 @@ import Prediction from './pages/Prediction/'
 import './index.css'
 import WebApp from '@twa-dev/sdk'
 
-WebApp.ready();
+WebApp.ready()
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
@@ -16,5 +16,5 @@ ReactDOM.createRoot(document.getElementById('root')!).render(
         <Route path="/" element={<App />} />
       </Routes>
     </Router>
-  </React.StrictMode>,
+  </React.StrictMode>
 )
